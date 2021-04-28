@@ -1,14 +1,14 @@
-def user_division(numerator,denominator)
-    if denominator <> 0 :
-        return numerator/denominator
+def user_division(numerator,denominator):
+    if denominator != 0 :
+        return print(f"результат деление :{numerator}/{denominator}")
     else print("тут нельзя делить на 0!")
+
+
+user_division(10,2)
+
     
-    имя фамилия год раждения город проживания уьфшд телефон
-    
- def  SomeData(**Data):
-   print(f"Owner Name: {owner}")
-   for dat in Data.items():
-      print(f"{Data}: {param}")
+def  someData(**kparams):
+    return(kparams)
       
       
-print SomeData(name="Jonathan",second_name="Brock", birthday="12.12.2020", сity="SomeCity", email="test@test.com")
+print(someData(name="Jonathan",second_name="Brock", birthday="12.12.2020", сity="SomeCity", email="test@test.com"))
