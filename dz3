@@ -1,0 +1,14 @@
+def user_division(numerator,denominator)
+    if denominator <> 0 :
+        return numerator/denominator
+    else print("тут нельзя делить на 0!")
+    
+    имя фамилия год раждения город проживания уьфшд телефон
+    
+ def  SomeData(**Data):
+   print(f"Owner Name: {owner}")
+   for dat in Data.items():
+      print(f"{Data}: {param}")
+      
+      
+print SomeData(name="Jonathan",second_name="Brock", birthday="12.12.2020", сity="SomeCity", email="test@test.com")
