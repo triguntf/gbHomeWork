@@ -12,3 +12,14 @@ def  someData(**kparams):
       
       
 print(someData(name="Jonathan",second_name="Brock", birthday="12.12.2020", сity="SomeCity", email="test@test.com"))
+
+
+def my_func(arg1=None,arg2=None,arg3=None):
+    if arg1>arg2:
+        if arg2>arg3:
+            return print(arg1+arg2)
+        else: return (arg1 + arg3)
+    else: if arg2 > arg3:
+        if arg3>arg1:
+            return print(arg3+arg2)
+        else: return(arg2+arg1)
