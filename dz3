@@ -23,6 +23,8 @@ def my_func(arg1=None,arg2=None,arg3=None):
         if arg3>arg1:
             return print(arg3+arg2)
         else: return(arg2+arg1)
+        
+
 
 
 def my_func(x, y):
@@ -33,3 +35,19 @@ def my_func(x, y):
         answer=answer*x
         y +=1
     return print(1/answer)
+    
+
+    
+    
+def int_func(user_list=str):
+    user_list=input().split()
+    upper_user_list=list()
+    for i in user_list:
+        i=list(i)
+        i[0]=i[0].upper()
+        i=''.join(i)
+        upper_user_list.append(i)
+    print(' '.join(upper_user_list))
+
+
+int_func("привет")
