@@ -1,3 +1,4 @@
+
 def user_division(numerator,denominator):
     if denominator != 0 :
         return print(f"результат деление :{numerator}/{denominator}")
